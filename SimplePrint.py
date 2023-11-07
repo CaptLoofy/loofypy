@@ -3,6 +3,9 @@ print("Testing Simple Print Statements")
 age = 20
 #initialize a string
 name = "George"
-print("Testing printing a string and a number")
 print("Name",name)
 print("Age", age)
+#get input from a user
+city = input("Which city do they live :")
+message = "Welcome " + name + " From " + city
+print(message)
